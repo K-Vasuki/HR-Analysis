@@ -46,31 +46,14 @@ To identify patterns and key drivers of employee attrition using historical HR d
 
 ---
 
-##  Sample SQL Queries
-
-```sql
--- Total Attrition
-SELECT COUNT(*) FROM HR_Employee WHERE Attrition = 'Yes';
-
--- Attrition by Department
-SELECT Department, COUNT(*) AS Count
-FROM HR_Employee
-WHERE Attrition = 'Yes'
-GROUP BY Department;
-
--- Average Monthly Income of Attrited Employees
-SELECT AVG(MonthlyIncome)
-FROM HR_Employee
-WHERE Attrition = 'Yes';
-
-### Python EDA Insights
+## Python EDA Insights
 Created correlation plots to identify key influencing features
 
 Analyzed distribution of MonthlyIncome and Age for attrited employees
 
 Found significant links between OverTime and Attrition
 
-### Key Insights
+## Key Insights
 Majority attrition occurs among employees aged <40
 
 R&D and Sales departments have the highest turnover
@@ -81,7 +64,7 @@ Women showed a slightly higher attrition rate than men
 
 Entry-level roles (Sales Executive, Lab Technician) had the most exits
 
-### Recommendations
+## Recommendations
 Focus retention efforts on <40 age group and junior roles
 
 Reduce OverTime workload in high-risk departments
@@ -90,7 +73,7 @@ Improve engagement and growth plans for women
 
 Offer career development paths in Sales and R&D
 
-### Files Included
+## Files Included
 PowerBI_Dashboard.pbix – Power BI report file
 
 Queries.sql – SQL scripts used for analysis
