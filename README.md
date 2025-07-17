@@ -36,7 +36,7 @@ To identify patterns and key drivers of employee attrition using historical HR d
 
 ---
 
-## 📊 Power BI Dashboard Highlights
+##  Power BI Dashboard Highlights
 
 - **KPI Cards**: Total Employees, Attrition Count, Avg Monthly Income
 - **Bar Charts**: Attrition by Department, Age Group, and Job Role
@@ -60,7 +60,7 @@ R&D and Sales departments have the highest turnover
 
 OverTime is highly correlated with attrition (46% attrited worked overtime)
 
-Women showed a slightly higher attrition rate than men
+Men showed a slightly higher attrition rate than Women
 
 Entry-level roles (Sales Executive, Lab Technician) had the most exits
 
