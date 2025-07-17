@@ -1,16 +1,16 @@
-# 💼 HR Attrition Analysis
+ HR Attrition Analysis
 
 An end-to-end data analysis project using **Power BI**, **SQL**, and **Python** to explore and visualize employee attrition trends from the IBM HR Analytics dataset.
 
 ---
 
-## 📌 Project Objective
+Project Objective
 
 To identify patterns and key drivers of employee attrition using historical HR data, enabling data-driven decisions to improve retention strategies.
 
 ---
 
-## 🧰 Tools & Technologies
+Tools & Technologies
 
 - **SQL** – Data querying, grouping, filtering
 - **Power BI** – Dashboards, KPIs, slicers, and visuals
@@ -19,7 +19,7 @@ To identify patterns and key drivers of employee attrition using historical HR d
 
 ---
 
-## ❓ Key Business Questions
+Key Business Questions
 
 - Which departments and job roles have the highest attrition?
 - Is OverTime associated with employee attrition?
@@ -28,7 +28,7 @@ To identify patterns and key drivers of employee attrition using historical HR d
 
 ---
 
-## 🗂️ Dataset
+##  Dataset
 
 - **Source**: IBM HR Analytics Employee Attrition Dataset  
 - **Records**: 1,470 employees  
@@ -36,7 +36,7 @@ To identify patterns and key drivers of employee attrition using historical HR d
 
 ---
 
-## 📊 Power BI Dashboard Highlights
+## Power BI Dashboard Highlights
 
 - **KPI Cards**: Total Employees, Attrition Count, Avg Monthly Income
 - **Bar Charts**: Attrition by Department, Age Group, and Job Role
@@ -46,7 +46,7 @@ To identify patterns and key drivers of employee attrition using historical HR d
 
 ---
 
-## 🧮 Sample SQL Queries
+##  Sample SQL Queries
 
 ```sql
 -- Total Attrition
