@@ -61,7 +61,8 @@ GROUP BY Department;
 -- Average Monthly Income of Attrited Employees
 SELECT AVG(MonthlyIncome)
 FROM HR_Employee
-WHERE Attrition = 'Yes';```
+WHERE Attrition = 'Yes';
+---
 Python EDA Insights
 Created correlation plots to identify key influencing features
 
