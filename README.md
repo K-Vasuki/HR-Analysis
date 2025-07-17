@@ -62,3 +62,48 @@ GROUP BY Department;
 SELECT AVG(MonthlyIncome)
 FROM HR_Employee
 WHERE Attrition = 'Yes';
+
+Python EDA Insights
+Created correlation plots to identify key influencing features
+
+Analyzed distribution of MonthlyIncome and Age for attrited employees
+
+Found significant links between OverTime and Attrition
+
+Key Insights
+Majority attrition occurs among employees aged <40
+
+R&D and Sales departments have the highest turnover
+
+OverTime is highly correlated with attrition (46% attrited worked overtime)
+
+Women showed a slightly higher attrition rate than men
+
+Entry-level roles (Sales Executive, Lab Technician) had the most exits
+
+Recommendations
+Focus retention efforts on <40 age group and junior roles
+
+Reduce OverTime workload in high-risk departments
+
+Improve engagement and growth plans for women
+
+Offer career development paths in Sales and R&D
+
+Files Included
+PowerBI_Dashboard.pbix – Power BI report file
+
+Queries.sql – SQL scripts used for analysis
+
+Python_Analysis.ipynb – Jupyter Notebook for EDA
+
+HR_Attrition_Insights_Report.pdf – Summary report
+
+README.md – This documentation
+
+Contact
+VASUKI K
+Engineering Graduate 2025-IT
+LinkedIn:https://www.linkedin.com/in/vasukik/ •Github:https://github.com/K-Vasuki• Email: vasukikumaraguru11@gmail.com
+
+
